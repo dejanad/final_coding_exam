@@ -7,14 +7,14 @@ var slider;
 let camptonMedium;
 let herefor24;//idea is to refresh websocket every 24hours 
 let dej;
-var publicLoo;
+// var publicLoo;
 
 function preload(){
   herefor24 = loadImage('herefor24.png');
   dej = loadImage('dej.png');
   camptonMedium = loadFont ('Campton-Medium.otf');
   soundFormats('mp3');
-  publicLoo = loadSound ('publicLoo.mp3')
+  // publicLoo = loadSound ('publicLoo.mp3')
 }
 
 function setup() {
